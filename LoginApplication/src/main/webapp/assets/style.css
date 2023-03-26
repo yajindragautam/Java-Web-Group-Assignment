@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /*background-image: linear-gradient(to right top, #d16ba5,#D16BA5,#D16BA5, #c777b9,*/
+    /*            #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff,*/
+    /*            #46eefa, #5ffbf1);*/
+    background-image: url('https://external-preview.redd.it/ZIrWK2tOf_72YVnwjqyMGiiEiU3PVLNjPyObWDq1gd0.jpg?auto=webp&s=c7922a2f88dea4d22bdaa17a8fcaad3a62661070');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.heading {
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading h3 {
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.card {
+    width: 50%;
+    margin: 0 auto;
+    padding: 70px 50px;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 0;
+}
+
+.form .input-group {
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #ffffff5e;
+    border: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.input-group-text {
+    background-color: transparent;
+    border: 0;
+    border-right: 2px solid #ced4da;
+}
+
+.input-group-text i {
+    color: #6e53db;
+}
+
+.form input {
+    border: 0;
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+}
+
+.form input::placeholder {
+    color: white;
+}
+
+.form input:focus,
+.form input:active{
+    box-shadow: none;
+    border: 0;
+    background-color: transparent;
+}
+
+.btn {
+    border-radius: 26px;
+    min-width: 150px;
+    display: block;
+    margin: 0 auto;
+    background-color: #6e53db;
+    border: 0;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.error-message {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 600;
+    padding: 7px 7px 7px 12px;
+    position: relative;
+    background-color: #ff000033;
+}
+
+.error-message::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    background-color: #e71717;
+    left: 0;
+    top: 0;
+}
